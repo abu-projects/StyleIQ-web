@@ -3,13 +3,15 @@
 Prepared: 6 October 2026.
 Companion documents: [DESIGN.md](./DESIGN.md) and [CONTENT.md](./CONTENT.md).
 
-## Implemented scroll refinement — 6 October 2026
+## Implemented motion revision — 6 October 2026
 
-Following the request for stronger 3D scrolling, every visible phone now tracks native scroll through a perspective transform. Desktop devices rotate up to 12° around X and 28° around Y, with up to 40px of vertical travel. The middle step uses half the Y rotation; mobile uses 65% intensity. Each composition keeps its small resting tilt. The sticky feature phone follows a continuous arc between chapters and faces forward at their centres while the screen crossfades.
+The earlier rotating-phone treatment is superseded. Product screens now stay upright inside their shared clean shells. Native scrolling drives distinct scenes: a choreographed hero with shallow depth, closet and outfit assembly, a three-context Style Twin crossfade, six Style Studio states, planner and packing details, and the final download arrival. Supporting Discover cards and illustrative metrics use quieter one-shot motion.
 
-The implementation uses a passive scroll listener and one requested animation frame per scroll/resize update. It writes transform variables only for nearby visible devices; it does not run an idle animation loop. Native scrolling, navigation, and tour controls remain immediate. Reduced motion removes all device transforms, including when the preference changes while the page is open.
+`motion.css` centralises timing and distances; `motion.js` batches geometry reads before writes in one requested frame per scroll/resize batch. Image replacements decode before crossfading, with request guards for fast and reverse navigation. No animation library or idle animation loop is used.
 
-App screenshots were recaptured without the source prototype's rounded outer clipping. One shared thin graphite and warm metallic shell surrounds each clean capture. How-it-works devices are shown in full, and mobile feature screens use the same shell. These refinements supersede the smaller phone movement proposed below.
+Below 768px, sticky scenes become normal content with explicit buttons for Twin and Studio. Reduced motion removes entrances, depth and sticky positioning, pauses the film by default, and retains manual controls. Product walkthroughs and metrics are explicitly illustrative.
+
+The remaining storyboard records the original direction; the implemented revision above takes precedence.
 
 ## Reference review
 

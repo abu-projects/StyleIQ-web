@@ -1,23 +1,12 @@
-# Verification — 6 October 2026
+# Verification — motion revision, 6 October 2026
 
-- Chromium: 1440 × 900, 390 × 844, 320 × 740.
-- No horizontal overflow at the three checked widths.
-- No page JavaScript errors or failing HTTP responses during the checks.
-- All referenced image assets return successfully.
-- Product tour changes the selected screen and pressed state.
-- FAQ expands through its native disclosure control.
-- Mobile navigation opens and closes; Escape returns focus to its toggle.
-- Reduced-motion browser context starts the hero film paused.
-- JavaScript syntax check passed.
-- Visually reviewed desktop hero, mobile hero, How it works, sticky feature sequence, product tour, and final download composition.
+- Reviewed original StyleIQ page and Whering reference before implementing distinct StyleIQ motion scenes.
+- Visually reviewed hero, complete phone frames, Muse, all three Twin contexts, planner/packing, Studio states, Discover and final download composition.
+- Checked widths 1440, 1280, 1024, 768, 430 and 390px; no horizontal document overflow. Desktop sticky scenes become natural layouts below 768px.
+- Checked forward/reverse scrolling, context selection, Studio replacement and complete-look sizing on desktop and mobile, and resize across breakpoints.
+- Mobile navigation opens and Escape closes it. Native FAQ expands. The tour changes the displayed screen and selected state through all four options.
+- Reduced-motion branches checked using a temporary local fixture that forces the media-query result in the production scripts and CSS. All content remains readable, Twin/Studio manual selection works, metrics show final sample values, and the hero starts with its Play control. This is branch testing, not an OS preference change.
+- JavaScript syntax, referenced asset paths, internal anchors and duplicate IDs checked. New product assets total about 583 KiB.
+- Genuine screenshots remain separate from the explicitly labelled illustrative Studio walkthrough and sample compatibility/outfit values. Store destinations remain pending.
 
-## Phone frame and 3D scroll revision
-
-- Recaptured five app screens with prototype outer clipping disabled; source app files were not edited.
-- Visually reviewed clean shared shells, complete step phones, mobile step framing, and sticky feature framing.
-- Chromium at 1440, 1024, 768, 390, and 320px: no horizontal overflow; step frames preserve the source screen aspect ratio and fit inside their cards.
-- Verified that scrolling changes the computed device pose and that the sticky feature screen progresses through Closet, Today, and Calendar.
-- Switching reduced motion on while viewing the page removes every device transform; switching it off restores scroll motion.
-- Existing tour, FAQ, mobile navigation, asset, video, and JavaScript checks passed again.
-
-The directory is not a Git repository, so a Git diff check is unavailable. This is a local implementation; download destinations and release facts remain pending as recorded in CONTENT.md.
+No frame-rate or device performance measurement is claimed.

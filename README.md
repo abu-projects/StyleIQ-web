@@ -22,8 +22,8 @@ GitHub Pages serves the repository root from `main` at https://abu-projects.gith
 
 ## Before launch
 
-Replace the clearly labelled pending download panel with confirmed store links, then add a QR code only for a real download destination. Confirm launch features, screenshot stylist naming, asset publishing rights, and actual support/legal destinations. Unconfirmed Style Twin and Wishlist marketing has been omitted. No analytics or signup collection is configured.
+Replace the clearly labelled pending download panel with confirmed store links, then add a QR code only for a real download destination. Confirm launch features, screenshot stylist naming, asset publishing rights, and actual support/legal destinations. Style Twin, Studio and compatibility data are presented as clearly labelled illustrative previews. Confirm their launch scope before replacing those labels. No analytics or signup collection is configured.
 
 ## Interactions
 
-Mobile navigation, native FAQ disclosure controls, pause/play for the muted welcome film, scroll-linked product screens on desktop, and an interactive four-screen tour. Reduced motion uses the static hero poster by default and removes animated entrances.
+Mobile navigation, native FAQ disclosure controls, pause/play for the muted welcome film, scroll-linked product screens on desktop, and an interactive four-screen tour. Style Twin and Studio provide scroll-linked desktop walkthroughs and manual selection controls. Reduced motion uses the static hero poster by default, removes animated entrances and sticky scenes, and keeps manual controls available.
