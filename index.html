@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>StyleIQ — Digital Wardrobe &amp; AI Styling App</title>
+  <meta name="description" content="Organise your wardrobe, discover outfit ideas with your AI stylist, and plan looks for everyday occasions and trips with StyleIQ.">
+  <meta name="theme-color" content="#f8f6f3">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="nav-wrap">
+  <nav class="navigation" aria-label="Main navigation">
+    <a class="wordmark" href="#hero" aria-label="StyleIQ home">StyleIQ</a>
+    <div class="nav-links"><a href="#about">About</a><a href="#how-it-works">How it works</a><a href="#features">Features</a><a href="#faqs">FAQs</a></div>
+    <a class="button nav-cta" href="#get-the-app">Get the app <span aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation"><span></span><span></span></button>
+  </nav>
+  <div id="mobile-menu" class="mobile-menu" hidden><a href="#about">About</a><a href="#how-it-works">How it works</a><a href="#features">Features</a><a href="#faqs">FAQs</a></div>
+</header>
+<main id="main">
+  <section class="hero" id="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Your wardrobe. More possibilities.</p>
+      <h1>A fresh look at<br>what you<br><em>already own.</em></h1>
+      <p class="intro">Bring your wardrobe into StyleIQ, discover new outfit combinations, and plan what to wear—with your AI stylist by your side.</p>
+      <div class="hero-actions"><a class="button" href="#get-the-app">Get the app <span aria-hidden="true">↗</span></a><a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a></div>
+      <p class="hero-note">Your closet. Your taste. Your everyday style.</p>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-film"><video id="welcome-film" muted loop playsinline preload="none" poster="assets/woman.webp"><source src="assets/welcome.mp4" type="video/mp4"></video><div class="film-shade"></div><span class="film-wordmark">StyleIQ</span><button class="video-control" aria-label="Play fashion film">Play film <span aria-hidden="true">▷</span></button></div>
+      <div class="hero-phone phone"><img src="assets/screens/today.webp" alt="StyleIQ Today screen showing an outfit and personal styling guidance" width="760" height="1668" fetchpriority="high"></div>
+      <span class="photo-caption">A little inspiration.<br>A whole new perspective.</span>
+      <div class="hero-garment"><img src="assets/shell.webp" alt="" width="170" height="190"><span>Already in your closet.</span></div>
+    </div>
+  </section>
+  <section id="about" class="about section">
+    <div class="story-garments" aria-hidden="true"><img class="story-blazer" src="assets/blazer.webp" alt="" loading="lazy"><img class="story-shell" src="assets/shell.webp" alt="" loading="lazy"><span class="story-line"></span></div>
+    <div class="story-copy reveal"><p class="eyebrow">About StyleIQ</p><p class="story-question">You know the feeling.<br>A full closet.<br><em>No idea what to wear.</em></p><div class="about-detail"><h2>Make more of the wardrobe you already have.</h2><p>StyleIQ brings your clothes, outfit ideas, and plans together. See what you own, explore combinations that feel like you, and get guidance from your AI stylist when you need a little inspiration.</p><p class="signature">Your style starts with you.<br>We help you put it together.</p></div></div>
+  </section>
+  <section id="how-it-works" class="how section">
+    <div class="section-heading reveal"><p class="eyebrow">How it works</p><h2>From your closet<br>to your <em>next outfit.</em></h2><p>Start with the pieces you own.<br>Then explore what you can do with them.</p></div>
+    <div class="steps">
+      <article class="step reveal"><div class="step-image wardrobe-detail"><div class="phone step-phone"><img src="assets/screens/closet.webp" alt="Your clothes organised into categories in the StyleIQ digital closet" loading="lazy"></div></div><div class="step-heading"><span>01</span><h3>Bring your wardrobe together.</h3></div><p>Add your clothes to your digital closet so you can see and organise your pieces in one place.</p></article>
+      <article class="step reveal"><div class="step-image studio-detail"><div class="phone step-phone"><img src="assets/screens/studio.webp" alt="Style Studio canvas for combining wardrobe pieces into an outfit" loading="lazy"></div></div><div class="step-heading"><span>02</span><h3>Find a combination you love.</h3></div><p>Explore outfit ideas with your AI stylist, or put together your own in Style Studio. Save the looks you want to wear again.</p></article>
+      <article class="step reveal"><div class="step-image calendar-detail"><div class="phone step-phone"><img src="assets/screens/calendar.webp" alt="StyleIQ calendar for planning looks and occasions" loading="lazy"></div></div><div class="step-heading"><span>03</span><h3>Make it part of your day.</h3></div><p>Plan looks for upcoming occasions and organise outfits and packing for your next trip.</p></article>
+    </div>
+  </section>
+  <section id="features" class="features section">
+    <div class="section-heading reveal"><p class="eyebrow">Thoughtfully styled. Simply you.</p><h2>Less outfit indecision.<br><em>More you.</em></h2></div>
+    <div class="feature-sequence">
+      <div class="feature-stage"><div class="stage-orbit" aria-hidden="true"></div><div class="phone feature-phone"><img id="feature-screen" src="assets/screens/closet.webp" width="760" height="1668" alt="StyleIQ digital closet" loading="lazy"></div><p class="stage-caption"><span id="feature-count">01</span> / 03 <span id="feature-label">Your wardrobe, together.</span></p></div>
+      <div class="feature-copy">
+        <article class="feature-chapter" data-screen="closet" data-alt="StyleIQ digital closet" data-caption="Your wardrobe, together."><p class="eyebrow">01 — Digital wardrobe</p><h3>A wardrobe you<br>can actually <em>see.</em></h3><p>Keep your pieces together in a digital closet. Browse what you own and rediscover the items you want to wear more.</p><span class="chapter-note">A fresh perspective on familiar pieces.</span><div class="phone mobile-feature-phone"><img src="assets/screens/closet.webp" alt="StyleIQ digital closet" loading="lazy"></div></article>
+        <article class="feature-chapter" data-screen="today" data-alt="StyleIQ Today outfit suggestions" data-caption="A little personal guidance."><p class="eyebrow">02 — Your AI stylist</p><h3>A little guidance.<br>A look that feels<br><em>like you.</em></h3><p>Ask your AI stylist for outfit ideas around your wardrobe, taste, and occasion. Explore combinations, make your own adjustments, and save your favourites.</p><span class="chapter-note">Your taste leads the way.</span><div class="phone mobile-feature-phone"><img src="assets/screens/today.webp" alt="StyleIQ Today outfit suggestions" loading="lazy"></div></article>
+        <article class="feature-chapter" data-screen="calendar" data-alt="StyleIQ outfit calendar" data-caption="Ready for what is next."><p class="eyebrow">03 — Calendar &amp; trips</p><h3>Good outfits,<br><em>planned ahead.</em></h3><p>Keep looks ready for the occasions on your calendar. Heading away? Bring your outfit plans and packing list together before you go.</p><a class="text-link" href="#get-the-app">Get the app <span aria-hidden="true">↗</span></a><div class="phone mobile-feature-phone"><img src="assets/screens/calendar.webp" alt="StyleIQ outfit calendar" loading="lazy"></div></article>
+      </div>
+    </div>
+  </section>
+  <section class="travel-strip"><img src="assets/travel.webp" alt="Two people packing clothes into a suitcase together" loading="lazy"><div class="travel-copy reveal"><p class="eyebrow">Wherever the day takes you</p><h2>Pack your looks.<br><em>Enjoy the moment.</em></h2><p>Bring your outfit plans and packing list together before you go.</p></div></section>
+  <section id="app-tour" class="tour section">
+    <div class="section-heading reveal"><p class="eyebrow">See StyleIQ in action</p><h2>One wardrobe.<br>A new way to <em>get dressed.</em></h2><p>Take a closer look at your closet, outfit ideas, and plans—all together in StyleIQ.</p></div>
+    <div class="tour-layout"><div class="tour-visual"><div class="phone"><img id="tour-screen" src="assets/screens/closet.webp" alt="StyleIQ digital closet" width="760" height="1668" loading="lazy"></div></div><div class="tour-controls" role="group" aria-label="Choose an app screen">
+      <button class="tour-choice active" data-screen="closet" data-alt="StyleIQ digital closet" aria-pressed="true"><span>01</span><div><h3>Your closet, at a glance.</h3><p>See the pieces you own, all in one place.</p></div><span aria-hidden="true">↗</span></button>
+      <button class="tour-choice" data-screen="today" data-alt="StyleIQ Today outfit suggestions" aria-pressed="false"><span>02</span><div><h3>A little daily inspiration.</h3><p>Discover outfit ideas with your AI stylist.</p></div><span aria-hidden="true">↗</span></button>
+      <button class="tour-choice" data-screen="studio" data-alt="StyleIQ Style Studio outfit canvas" aria-pressed="false"><span>03</span><div><h3>Build an outfit your way.</h3><p>Combine pieces in Style Studio and save your looks.</p></div><span aria-hidden="true">↗</span></button>
+      <button class="tour-choice" data-screen="packing" data-alt="StyleIQ trip packing checklist" aria-pressed="false"><span>04</span><div><h3>Ready for your next trip.</h3><p>Bring your packing and outfit plans together.</p></div><span aria-hidden="true">↗</span></button>
+    </div></div>
+  </section>
+  <section id="faqs" class="faq section"><div class="reveal"><p class="eyebrow">A few things you might be wondering</p><h2>Good questions.<br><em>Simple answers.</em></h2></div><div class="faq-list">
+    <details><summary>What is StyleIQ?<span aria-hidden="true">+</span></summary><p>StyleIQ is a wardrobe and styling app that helps you organise your clothes, explore outfit ideas, and plan what to wear, with guidance from an AI stylist.</p></details>
+    <details><summary>Do I need to buy new clothes to use it?<span aria-hidden="true">+</span></summary><p>Start with the clothes you already own. Add pieces to your digital closet and explore new ways to put them together.</p></details>
+    <details><summary>Can I create my own outfits?<span aria-hidden="true">+</span></summary><p>Yes. Use Style Studio to combine pieces and save your favourite looks.</p></details>
+    <details><summary>Can I plan outfits for occasions and trips?<span aria-hidden="true">+</span></summary><p>Use the calendar to organise upcoming looks and Trips to bring outfit planning and packing together.</p></details>
+  </div></section>
+  <section id="get-the-app" class="download section"><div class="download-copy reveal"><span class="wordmark">StyleIQ</span><p class="eyebrow">Get the app · Meet your wardrobe again</p><h2>Your next favourite outfit could already be <em>in your closet.</em></h2><p>Bring it together with StyleIQ. Discover outfit ideas, plan your looks, and make more of the pieces you own.</p><div class="download-status"><span class="status-dot"></span><div><strong>Download links coming soon</strong><p>App Store and Google Play destinations will be added here when confirmed.</p></div></div></div><div class="download-visual"><img class="download-woman" src="assets/woman.webp" alt="Woman wearing a camel blazer and cream trousers" loading="lazy"><img class="download-man" src="assets/man.webp" alt="Man wearing a navy blazer in a clothing studio" loading="lazy"><div class="phone download-phone"><img src="assets/screens/today.webp" width="760" height="1668" alt="StyleIQ Today screen" loading="lazy"></div></div></section>
+</main>
+<footer class="footer"><div><a class="wordmark" href="#hero">StyleIQ</a><p>Your wardrobe, thoughtfully styled.</p></div><div class="footer-links"><a href="#about">About</a><a href="#how-it-works">How it works</a><a href="#faqs">FAQs</a><a href="#get-the-app">Get the app ↗</a></div><span class="copyright">© 2026 StyleIQ</span></footer>
+</body>
+</html>
