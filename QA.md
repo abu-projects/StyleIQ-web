@@ -1,7 +1,7 @@
 # Verification — motion revision, 6 October 2026
 
 - Reviewed original StyleIQ page and Whering reference before implementing distinct StyleIQ motion scenes.
-- Visually reviewed hero, complete phone frames, Muse, all three Twin contexts, planner/packing, Studio states, Discover and final download composition.
+- Visually reviewed hero, complete phone frames, Olivia, all three Twin contexts, planner/packing, Studio states, Discover and final download composition.
 - Checked widths 1440, 1280, 1024, 768, 430 and 390px; no horizontal document overflow. Desktop sticky scenes become natural layouts below 768px.
 - Checked forward/reverse scrolling, context selection, Studio replacement and complete-look sizing on desktop and mobile, and resize across breakpoints.
 - Mobile navigation opens and Escape closes it. Native FAQ expands. The tour changes the displayed screen and selected state through all four options.

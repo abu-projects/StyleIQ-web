@@ -135,7 +135,7 @@ The page should explain StyleIQ: choosing outfits from clothes you already own, 
 
 Use the actual welcome visual language for a hero direction, then warm ivory/white editorial sections, serif headlines, Inter explanations, real app demonstrations, espresso CTAs, and restrained gold details. Desktop layout can gain breathing room and wider compositions while keeping the same palette, material roles, typography, imagery, and component character.
 
-Product-copy discrepancy to resolve when writing final marketing content: the older design document calls the stylist **Muse**, while the current rendered UI calls it **Livia** and retains internal `muse-*` class/asset names. This document records the current visuals without deciding a new public name.
+Confirmed public stylist name: **Olivia**. Historical prototype screenshots may still show **Livia**; internal `muse-*` class/asset names are retained for compatibility. All website text and accessible labels use Olivia.
 
 Do not invent release status, pricing, App Store links, testimonials, customer counts, or unverified capabilities. Final landing-page copy and conversion destination are outside this design-extraction task.
 

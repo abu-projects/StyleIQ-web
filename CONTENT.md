@@ -122,7 +122,7 @@ Visual: Closet, including its category controls and garment thumbnails.
 
 **Ask your AI stylist for outfit ideas around your wardrobe, taste, and occasion. Explore combinations, make your own adjustments, and save your favourites.**
 
-Visual: Today and the stylist conversation. Refer to “your AI stylist” in public copy for now; the current UI uses Livia while older guidance uses Muse. Confirm the public name before screenshots and copy are finalised.
+Visual: Today and the stylist conversation. Use **Olivia** as the confirmed public name of the AI stylist. Historical prototype screenshots may still show Livia.
 
 **Good outfits, planned ahead.**
 
@@ -283,7 +283,7 @@ Facts required before publication:
 | Release availability | Not verified | Use download copy when live. If prelaunch, use “Coming soon”; use “Join the waitlist” only with a working signup destination. |
 | Launch feature set | Prototype evidence only | Validate the claims above against the mobile release; remove deferred features and related FAQ answers. |
 | Pricing | Not supplied | Omit “free,” subscription prices, and pricing comparisons. |
-| AI stylist name | Current UI: Livia; older docs: Muse | Use generic AI-stylist wording until the name is confirmed. |
+| AI stylist name | Confirmed: Olivia | Use Olivia in website copy and accessible labels. Historical screenshots may show Livia. |
 | Testimonials / ratings / press | Not supplied | Use app demonstrations; add genuine customer proof later. |
 | Support / Privacy / Terms | Destinations not supplied | Supply actual destinations before making public links. |
 

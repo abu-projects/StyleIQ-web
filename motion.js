@@ -10,7 +10,7 @@
   const studioChapters = [...document.querySelectorAll('.studio-step')];
   const twinLayers = [...document.querySelectorAll('.twin-layer')];
   const studioPieces = [...document.querySelectorAll('.studio-canvas .assembly-piece')];
-  const studioLabels = ['Start from your closet','Choose a piece','Muse suggests a combination','A different top. Still you.','The complete look','Save · Wear · Plan'];
+  const studioLabels = ['Start from your closet','Choose a piece','Olivia suggests a combination','A different top. Still you.','The complete look','Save · Wear · Plan'];
   const studioDetails = ['Your pieces, ready to explore.','A favourite blazer sets the direction.','Compatible pieces, brought together.','An ivory tank changes the mood.','Finish with shoes and a favourite bag.','Keep the look ready for another day.'];
   let twinIndex = -1, studioIndex = -1, featureIndex = -1;
   let twinRequest = 0, studioRequest = 0, studioTimer = 0, scheduled = false;
