@@ -1,0 +1,5 @@
+dist/
+# Original reference media is archived locally; the homepage uses StyleIQ assets.
+public/assets/*
+!public/assets/styleiq/
+docs/research/

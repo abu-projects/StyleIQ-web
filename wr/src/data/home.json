@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "titleLead": "Love",
+    "titleAccent": "your",
+    "titleTail": "wardrobe",
+    "subtitle": "Your wardrobe, thoughtfully styled. Discover outfit ideas and plan your looks with StyleIQ.",
+    "subtitleCount": "10 million"
+  },
+  "glassCards": {
+    "quote": "Your wardrobe, all together.",
+    "ratingsScore": "Olivia",
+    "ratingsLabel": "Your AI stylist"
+  },
+  "scrollText": {
+    "line1": "A wardrobe full of clothes.",
+    "line2": "And still, what to wear?",
+    "sectionFour": "Start with what you <accent>already own</accent>."
+  },
+  "seenWorn": {
+    "leadBeforeBreak": "They need to",
+    "leadAfterBreak": "be",
+    "seenAccent": "seen.",
+    "wornAccent": "worn."
+  },
+  "seeWhatYouOwn": {
+    "leadSegments": [
+      "Whering",
+      "helps you",
+      "see what",
+      "you"
+    ],
+    "accent": "own."
+  },
+  "noticeYouLove": {
+    "text1": "Rediscover the pieces you <accent>love</accent>.",
+    "text2": "Find combinations that feel like <accent>you</accent>."
+  },
+  "stackingCards": [
+    {
+      "title": "Your wardrobe",
+      "titleAccent": "all together",
+      "description": "Bring the clothes you own into your digital closet. See your pieces clearly and find new ways to wear them."
+    },
+    {
+      "title": "Outfit ideas",
+      "titleAccent": "with Olivia",
+      "description": "Meet your AI stylist. Explore combinations from your own wardrobe, for ordinary days and special occasions."
+    },
+    {
+      "title": "Your looks",
+      "titleAccent": "planned ahead",
+      "description": "Keep outfits ready for the occasions on your calendar. Save a look today and make getting dressed tomorrow easier."
+    },
+    {
+      "title": "Style Studio",
+      "titleAccent": "made by you",
+      "description": "Combine your pieces on a canvas. Try a different top, add a finishing touch, and save a look that feels like yours."
+    },
+    {
+      "title": "Inspiration",
+      "titleAccent": "for your style",
+      "description": "Explore new outfit ideas and use your own pieces as the starting point. Make inspiration personal."
+    },
+    {
+      "title": "Everyday style",
+      "titleAccent": "in one place",
+      "description": "Your closet, outfit ideas, calendar and packing plans, brought together in StyleIQ."
+    },
+    {
+      "title": "Pack your looks",
+      "titleAccent": "enjoy the trip",
+      "description": "Bring your outfit plans and packing list together before you go. See what you need, and keep your looks ready."
+    }
+  ],
+  "seeWearBuild": {
+    "stages": [
+      {
+        "active": "See",
+        "title": "Your wardrobe, all in one place",
+        "subtitle": "Bring the pieces you own into your digital closet."
+      },
+      {
+        "active": "Wear",
+        "title": "A little Olivia intuition",
+        "subtitle": "Explore outfit ideas with your AI stylist, then make them yours."
+      },
+      {
+        "active": "Build",
+        "title": "Good outfits, planned ahead",
+        "subtitle": "Save your looks and bring them into your calendar and trips."
+      }
+    ]
+  },
+  "joinMillions": {
+    "heading": "Meet your wardrobe <accent>again</accent>.",
+    "headingCount": "",
+    "body": "Your clothes are the starting point. StyleIQ brings your closet, outfit ideas and plans together, so you can make more of the pieces you own.",
+    "chips": [
+      "Your digital closet",
+      "Olivia, your AI stylist",
+      "Calendar & trips"
+    ]
+  },
+  "appVideo": {
+    "subsections": [
+      {
+        "title": "Your digital closet",
+        "description": "See your pieces together in the StyleIQ closet."
+      },
+      {
+        "title": "Outfits, made by you",
+        "description": "Combine your clothes and save favourite looks in Style Studio."
+      },
+      {
+        "title": "Good outfits, planned ahead",
+        "description": "Keep your looks ready with the outfit calendar."
+      },
+      {
+        "title": "Pack with confidence",
+        "description": "Bring your trip outfits and packing list together."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "See what you own.",
+      "body": "Bring your wardrobe together and rediscover familiar pieces.",
+      "pill": "01 \u00b7 Closet",
+      "image": "/assets/styleiq/screens/closet.webp"
+    },
+    {
+      "quote": "Make it yours.",
+      "body": "Try a new combination, change a piece and save your look.",
+      "pill": "02 \u00b7 Style Studio",
+      "image": "/assets/styleiq/screens/studio.webp"
+    },
+    {
+      "quote": "Plan the moment.",
+      "body": "Keep a look ready for the next occasion on your calendar.",
+      "pill": "03 \u00b7 Calendar",
+      "image": "/assets/styleiq/screens/calendar.webp"
+    },
+    {
+      "quote": "Ready to go.",
+      "body": "Bring your outfit plans and packing list together before a trip.",
+      "pill": "04 \u00b7 Trips",
+      "image": "/assets/styleiq/screens/packing.webp"
+    }
+  ]
+}

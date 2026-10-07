@@ -1,0 +1,28 @@
+/* StyleIQ identity; original section geometry and scroll choreography retained. */
+.home em{color:var(--gold)}
+.feature-copy em,.community em{color:var(--ink)}
+.orbit img{left:50%;top:50%;will-change:transform}
+.phone-frame>img{width:100%;display:block;aspect-ratio:760/1668;object-fit:cover}
+.testimonial-track img{object-fit:contain;background:white}
+.art-5 img{max-height:170px}
+.wordmark{font-family:'Playfair Display',Georgia,serif;font-weight:400;letter-spacing:-.045em}
+.nav-bar .wordmark{font-size:32px}
+.footer-wordmark>.wordmark{display:block;width:100%;text-align:center;font-size:clamp(80px,19vw,340px);line-height:1.1;color:var(--ink)}
+.download,.pill,.pill-button{background:var(--ink);color:white;transition:background .2s}
+.contact-card .pill{background:var(--paper);color:var(--ink)}
+.download:hover,.pill:hover,.pill-button:hover{background:#745018;color:white}
+.download-status{font-size:14px;line-height:1.6;color:#e4dcd3;margin-top:18px}
+@media(max-width:767px){.nav-bar .wordmark{font-size:24px}.art-5 img{max-height:100px}}
+
+.card-1,.card-4{background:#f1ede8}
+.stage-tabs [aria-selected=true]{background:var(--ink);border-color:var(--ink);color:white}
+
+.dark-photo-cloud:after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at center,var(--ink) 8%,transparent 80%)}
+.dark-photo-cloud .dark-photo{width:22%;opacity:.65;will-change:transform;box-shadow:0 18px 50px #0003}
+.dark-photo.photo-0{left:3%;top:-20%}.dark-photo.photo-1{right:3%;top:-12%}
+.dark-photo.photo-2{left:-6%;top:37%}.dark-photo.photo-3{right:-6%;top:38%}
+.dark-photo.photo-4{left:19%;top:86%}.dark-photo.photo-5{right:20%;top:90%}
+.dark-lines{display:grid;width:min(960px,100%)}
+.dark-lines>span{grid-area:1/1;align-self:center;will-change:opacity,transform}
+@media(max-width:767px){.hero-film video{transform:scale(3.2)}.dark-photo-cloud .dark-photo{width:44%;opacity:.5}.dark-photo.photo-0{left:-7%;top:-3%}.dark-photo.photo-1{right:-8%;top:0}.dark-photo.photo-2{left:-18%;top:55%}.dark-photo.photo-3{right:-18%;top:57%}.dark-photo.photo-4{left:5%;top:100%}.dark-photo.photo-5{right:5%;top:100%}}
+@media(prefers-reduced-motion:reduce){.dark-photo-cloud .dark-photo{transform:none!important}.dark-lines>span{transform:none!important}}
