@@ -1,0 +1,29 @@
+/* Shared first-visit explanation for the main site and the WR adaptation. */
+.product-intro{max-width:1600px;margin:auto;padding:150px 5.6% 76px;display:grid;grid-template-columns:1fr 1.08fr;gap:5%;align-items:center;min-height:790px;background:#f8f6f3;color:#1b1716}
+.product-intro .eyebrow,.intro-how .eyebrow{font:600 10px/1.5 Inter,Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#745018;margin:0 0 24px}
+.product-intro h1{font:400 clamp(40px,4.05vw,65px)/1.13 'Playfair Display',Georgia,serif;letter-spacing:-.045em;margin:0;text-wrap:balance}
+.product-intro h1 em{font:inherit;font-style:italic;color:#9a6f28}
+.product-intro .intro{font:400 15px/1.75 Inter,Arial,sans-serif;color:#6f675f;max-width:440px;margin:26px 0 0}
+.product-intro .hero-actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:28px}
+.product-intro .hero-note{font:400 11px/1.6 Inter,Arial,sans-serif;color:#6f675f;margin-top:24px}
+.intro-button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;border-radius:16px;padding:0 24px;background:#1b1716;color:white;font:600 13px/1.4 Inter,Arial,sans-serif;text-decoration:none;transition:background .2s}
+.intro-button:hover{background:#745018}.intro-link{display:inline-flex;align-items:center;min-height:44px;border-bottom:1px solid #1b1716;font:500 12px/1.4 Inter,Arial,sans-serif;text-decoration:none}
+.product-explainer{min-width:0;background:#f1ede8;border-radius:28px;padding:28px;color:#1b1716}
+.explainer-heading{display:flex;justify-content:space-between;gap:12px;font:500 11px/1.5 Inter,Arial,sans-serif;margin-bottom:28px}.explainer-heading>span:last-child{color:#6f675f}
+.explainer-body{display:grid;grid-template-columns:1.15fr 1fr;align-items:center;gap:24px}
+.explainer-controls{display:flex;flex-direction:column;gap:10px}
+.explainer-choice{display:flex;gap:12px;align-items:flex-start;width:100%;padding:18px 14px;border:1px solid transparent;border-radius:14px;background:transparent;text-align:left;cursor:pointer;color:#1b1716;transition:background .2s,border-color .2s}
+.explainer-choice:hover{background:#ffffff80}.explainer-choice[aria-pressed=true]{background:#fffdfa;border-color:#d6ccc2}
+.explainer-number{flex-shrink:0;white-space:nowrap;font:500 11px/1.6 Inter,Arial,sans-serif;color:#745018;padding-top:1px}
+.explainer-choice strong{display:block;font:500 14px/1.4 Inter,Arial,sans-serif;margin-bottom:8px}
+.explainer-choice>span>span{display:block;font:400 12px/1.65 Inter,Arial,sans-serif;color:#6f675f}
+.explainer-device{position:relative;min-width:0;overflow:hidden;border:4px solid #413c37;border-radius:24px;background:#fffdfa;box-shadow:0 18px 35px -18px #49392d55}
+.explainer-device>img{display:block;width:100%;height:auto;aspect-ratio:760/1668;object-fit:cover}.explainer-device>img[hidden]{display:none}
+.explainer-device>p{position:relative;z-index:1;background:#fffdfa;border-top:1px solid #ece7e1;padding:12px 6px;text-align:center;font:500 10px/1.5 Inter,Arial,sans-serif;margin:0}
+.explainer-note{font:400 10px/1.6 Inter,Arial,sans-serif;color:#6f675f;margin:24px 0 0;text-align:center}
+.intro-how{padding:85px 8%;background:#fffdfa;scroll-margin-top:110px}.intro-how h2{font:400 clamp(36px,4vw,60px)/1.15 'Playfair Display',Georgia,serif;letter-spacing:-.04em;margin:0}.intro-how h2 em{font:inherit;font-style:italic;color:#9a6f28}.intro-how>p:not(.eyebrow){font-size:15px;line-height:1.7;color:#6f675f;max-width:520px;margin:24px 0 0}.intro-how ol{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:40px;padding:0;margin:48px 0 0}.intro-how li{border-top:1px solid #d6ccc2;padding-top:22px}.intro-how li>span{font-size:11px;color:#745018}.intro-how h3{font:400 26px/1.25 'Playfair Display',Georgia,serif;margin:15px 0}.intro-how li p{font-size:14px;line-height:1.7;color:#6f675f;max-width:330px}
+.product-intro a:focus-visible,.explainer-choice:focus-visible{outline:3px solid #9a6f28;outline-offset:4px}
+@media(min-width:1600px){.product-intro{padding-left:90px;padding-right:90px}}
+@media(max-width:1100px) and (min-width:768px){.product-intro{gap:3%;padding-left:4%;padding-right:4%}.product-explainer{padding:20px}.explainer-body{gap:12px}.explainer-choice{padding:14px 8px}.explainer-choice strong{font-size:13px}.explainer-choice>span>span{font-size:11px}}
+@media(max-width:767px){.product-intro{display:flex;flex-direction:column;align-items:stretch;gap:32px;min-height:0;padding:118px 24px 55px}.home .product-intro{padding-top:52px}.product-intro h1{font-size:clamp(34px,8.7vw,54px);line-height:1.16}.product-intro .eyebrow{font-size:9px;margin-bottom:20px}.product-intro .intro{font-size:14px;margin-top:22px}.product-intro .hero-note{font-size:10px;margin-top:20px}.product-intro .hero-actions{gap:18px;margin-top:22px}.product-explainer{padding:20px 16px;border-radius:22px;width:100%;max-width:540px;align-self:center}.explainer-heading{font-size:10px;margin-bottom:20px}.explainer-body{gap:12px;grid-template-columns:1.12fr 1fr}.explainer-choice{padding:12px 8px;gap:8px;border-radius:10px}.explainer-choice strong{font-size:12px;margin-bottom:6px}.explainer-choice>span>span{font-size:11px;line-height:1.55}.explainer-number{font-size:9px}.explainer-device{border-width:3px;border-radius:18px}.explainer-device>p{font-size:9px;padding:10px 3px}.explainer-note{font-size:9px;margin-top:18px}.intro-how{padding:64px 24px;scroll-margin-top:24px}.intro-how ol{grid-template-columns:1fr;gap:28px;margin-top:32px}.intro-how h3{font-size:25px}.intro-how li p{max-width:none}.intro-how>p:not(.eyebrow){font-size:14px}}
+@media(prefers-reduced-motion:reduce){.explainer-choice,.intro-button{transition:none}}

@@ -1,8 +1,8 @@
 # StyleIQ · WR Gold adaptation
 
-The homepage preserves the WR section order, sticky scenes, card stack, See/Wear/Build tabs and carousel. Brand colours, typography, copy, imagery and the hero film now use the local StyleIQ assets.
+The homepage opens with a direct explanation of StyleIQ: add your clothes, create outfits and plan when to wear them. An interactive preview uses three authentic app screens, followed by a short “How it works” section. The remaining WR sticky scenes, card stack, See/Wear/Build tabs and carousel use StyleIQ colours, typography, copy and imagery.
 
-The “StyleIQ helps you see what you own” orbit keeps its original trajectory with transform-based positioning and time-based scroll interpolation. The hero mask and floating help button are removed, and the film is tightly cropped to the upper outfit. The dark wardrobe scene uses curated photographs, interpolated parallax and overlapping text fades. Other scene choreography is preserved.
+The “StyleIQ helps you see what you own” orbit keeps its original trajectory with transform-based positioning and time-based scroll interpolation. The fashion-film hero is replaced by the product introduction. The dark wardrobe scene uses curated photographs, interpolated parallax and overlapping text fades. Other scene choreography is preserved.
 
 The app tour uses authentic StyleIQ screenshots instead of the Whering product recordings. The former testimonial carousel contains product walkthrough cards; no borrowed customer quotes, press endorsements or ratings are presented as StyleIQ proof.
 

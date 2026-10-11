@@ -12,7 +12,7 @@ Open http://127.0.0.1:4174/. A static host can serve the same directory.
 
 ## Assets
 
-Fashion images and welcome film are copied from the active StyleIQ prototype. Photos and garment cutouts are optimised as WebP. Product screens are authentic captures of the #app element, excluding the prototype shell, from Today, Closet, Studio, Calendar, and Trips packing.
+Fashion images are copied from the active StyleIQ prototype. The opening section explains the digital wardrobe, outfit creation and planning flow with an interactive three-screen preview. Photos and garment cutouts are optimised as WebP. Product screens are authentic captures of the #app element, excluding the prototype shell, from Today, Closet, Studio, Calendar, and Trips packing.
 
 Fonts: Playfair Display and Inter, loaded from Google Fonts with local serif/sans-serif fallbacks.
 
@@ -26,4 +26,4 @@ Replace the clearly labelled pending download panel with confirmed store links, 
 
 ## Interactions
 
-Mobile navigation, native FAQ disclosure controls, pause/play for the muted welcome film, scroll-linked product screens on desktop, and an interactive four-screen tour. Style Twin and Studio provide scroll-linked desktop walkthroughs and manual selection controls. Reduced motion uses the static hero poster by default, removes animated entrances and sticky scenes, and keeps manual controls available.
+Mobile navigation, native FAQ disclosure controls, an interactive three-step introduction, scroll-linked product screens on desktop, and an interactive four-screen tour. Style Twin and Studio provide scroll-linked desktop walkthroughs and manual selection controls. Reduced motion removes animated entrances, screen crossfades and sticky scenes, and keeps manual controls available.

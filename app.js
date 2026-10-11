@@ -14,19 +14,6 @@
     document.querySelectorAll('.reveal, .about').forEach(element => reveal.observe(element));
   }
 
-  const video = document.querySelector('#welcome-film');
-  const videoButton = document.querySelector('.video-control');
-  let manuallyPaused = false;
-  const setVideoLabel = () => { videoButton.innerHTML = video.paused ? 'Play film <span aria-hidden="true">▷</span>' : 'Pause film <span aria-hidden="true">Ⅱ</span>'; videoButton.setAttribute('aria-label', video.paused ? 'Play fashion film' : 'Pause fashion film'); };
-  video.addEventListener('play', setVideoLabel);
-  video.addEventListener('pause', setVideoLabel);
-  videoButton.addEventListener('click', async () => { if (video.paused) { manuallyPaused = false; try { await video.play(); } catch { setVideoLabel(); } } else { manuallyPaused = true; video.pause(); } });
-  if (!reducedMotion.matches) video.play().catch(setVideoLabel);
-  reducedMotion.addEventListener('change', event => { if (event.matches) video.pause(); });
-  if ('IntersectionObserver' in window) {
-    new IntersectionObserver(entries => { if (!entries[0].isIntersecting) video.pause(); else if (!reducedMotion.matches && !manuallyPaused) video.play().catch(setVideoLabel); }, { threshold: .1 }).observe(video);
-  }
-
   // Keep the old layer visible until its replacement has decoded. The request
   // token prevents a slower image from winning after fast or reverse scrolling.
   const swaps = new WeakMap();
@@ -57,6 +44,18 @@
       frame.querySelectorAll('.screen-overlay').forEach(layer => layer.remove());
     }, reducedMotion.matches ? 0 : 460);
   }
+  const introSteps = [
+    ['closet', 'StyleIQ digital closet showing your clothes organised by category', '01 / Add your clothes'],
+    ['studio', 'StyleIQ Style Studio showing wardrobe pieces combined into an outfit', '02 / Create an outfit'],
+    ['calendar', 'StyleIQ calendar showing outfits planned for upcoming days', '03 / Plan when to wear it']
+  ];
+  const introChoices = [...document.querySelectorAll('[data-intro-step]')];
+  introChoices.forEach(choice => choice.addEventListener('click', () => {
+    introChoices.forEach(button => button.setAttribute('aria-pressed', String(button === choice)));
+    const [screen, alt, caption] = introSteps[Number(choice.dataset.introStep)];
+    swapScreen(document.querySelector('#intro-screen'), screen, alt);
+    document.querySelector('#intro-caption').textContent = caption;
+  }));
   window.StyleIQ = { swapScreen };
   const choices = [...document.querySelectorAll('.tour-choice')];
   choices.forEach(choice => choice.addEventListener('click', () => { choices.forEach(button => { const active = button === choice; button.classList.toggle('active', active); button.setAttribute('aria-pressed', String(active)); }); swapScreen(document.querySelector('#tour-screen'), choice.dataset.screen, choice.dataset.alt); }));

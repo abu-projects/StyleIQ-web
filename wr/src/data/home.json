@@ -1,10 +1,9 @@
 {
   "hero": {
-    "titleLead": "Love",
-    "titleAccent": "your",
-    "titleTail": "wardrobe",
-    "subtitle": "Your wardrobe, thoughtfully styled. Discover outfit ideas and plan your looks with StyleIQ.",
-    "subtitleCount": "10 million"
+    "titleLead": "Organise your clothes.",
+    "titleAccent": "Create outfits.",
+    "titleTail": "Plan what to wear.",
+    "subtitle": "StyleIQ brings your clothes into a digital wardrobe and helps you create outfits from what you already own—with Olivia, your AI stylist."
   },
   "glassCards": {
     "quote": "Your wardrobe, all together.",
